@@ -1,11 +1,87 @@
 # Screen Hide Utility (螢幕遮蔽工具)
+[English](#english) | [中文](#中文)
+
+## <a name="english"></a>English
+
+### Overview
+
+A lightweight screen overlay tool for Windows to instantly hide your second monitor. Perfect for protecting your privacy and maintaining focus during work, presentations, or live streams.
+
+##  Key Features
+
+* **Instant Privacy on Demand**: Designed specifically for your second monitor. Instantly cover it with a black screen using a button or a hotkey to prevent confidential information or personal content from being exposed.
+* **Global Hotkey Control**: Works even when the application is running in the background.
+    * `Shift + Q`: **Show** the black overlay (hides the screen)
+    * `Shift + W`: **Hide** the black overlay (restores the screen)
+* **Simple GUI**: An intuitive graphical interface for easy control without needing to memorize commands.
+* **Always on Top**: The black overlay is guaranteed to stay on top of all other windows, ensuring a reliable hiding effect.
+* **Extremely Lightweight**: The program is incredibly small and consumes almost no system resources.
+
+##  Use Cases
+
+* **Live Streaming & Screen Sharing**: Temporarily hide your secondary monitor while setting up scenes or switching windows to prevent viewers from seeing a cluttered desktop or private files.
+* **Working in Public Spaces**: Quickly hide non-work-related content on your extended display when working in a café, library, or co-working space.
+* **Presentations & Education**: Keep the projector screen (your second monitor) clean and black while you navigate files or consult notes on your primary display.
+
+### User Interface
+![Screenshot](Screen-Hide-Utility/images/screenshot.png)
+
+##  Getting Started
+
+### Option 1: Direct Download (Recommended)
+
+If you just want to use the tool, the easiest way is to download it from the `Releases` page.
+
+1.  Go to the **[Releases Page](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/releases)** (please replace with your link).
+2.  Download the latest version of `hide_screen.exe`.
+3.  Double-click to run. No installation is required.
+
+### Option 2: Run from Source (For Developers)
+
+1.  Ensure you have Python 3 installed.
+2.  Clone the repository:
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git)
+    cd YOUR_REPOSITORY
+    ```
+3.  Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+4.  Run the script:
+    ```bash
+    python hide_screen.py
+    ```
+
+##  Building the .exe from Source
+
+If you've modified the source code and want to create your own `.exe` file, you can use the included `build_hide_screen.bat` script.
+
+1.  **Install the build tool**:
+    ```bash
+    pip install pyinstaller
+    ```
+
+2.  **(Optional) Install UPX for Compression**:
+    To significantly reduce the size of the final `.exe` file, using UPX is recommended.
+    * Download the latest version from the **[UPX GitHub Releases page](https://github.com/upx/upx/releases)**.
+    * Extract the archive and place the entire folder (e.g., `upx-4.2.4-win64`) on your **Desktop**, as the build script defaults to this path.
+
+3.  **Run the Build Script**:
+    Simply double-click `build_hide_screen.bat`. The script will automatically detect UPX (if available) and package the application. The new `hide_screen.exe` will appear on your Desktop upon completion.
+
+##  License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
+
+
+## <a name="中文"></a>中文
+
+### 功能概覽
 
 使用於 Windows系統的螢幕遮蔽工具，能以全黑畫面快速覆蓋第二個螢幕。無論是工作、簡報或直播，它都能完美保護您的畫面隱私，並減少不必要的干擾。
-
-## 軟體截圖
-! (Screen-Hide-Utilit\images\screenshot.png)
-
----
 
 ##  主要特色
 
@@ -22,6 +98,9 @@
 * **直播與螢幕分享**: 在準備畫面或切換視窗時，可暫時遮蔽副螢幕，避免觀眾看到雜亂的桌面或私人檔案。
 * **公開場合工作**: 在咖啡廳、圖書館等公共場所使用延伸螢幕時，可快速隱藏非工作畫面，保護隱私。
 * **教育與簡報**: 演講者可以在主螢幕操作的同時，保持副螢幕（投影幕）的畫面純淨，避免顯示電腦後台或備忘稿。
+
+## 軟體截圖
+![Screenshot](Screen-Hide-Utility/images/screenshot.png)
 
 ##  如何開始
 
@@ -73,72 +152,3 @@
 
 
 
-# Screen Hide Utility
-
-A lightweight screen overlay tool for Windows to instantly hide your second monitor. Perfect for protecting your privacy and maintaining focus during work, presentations, or live streams.
-
----
-
-##  Key Features
-
-* **Instant Privacy on Demand**: Designed specifically for your second monitor. Instantly cover it with a black screen using a button or a hotkey to prevent confidential information or personal content from being exposed.
-* **Global Hotkey Control**: Works even when the application is running in the background.
-    * `Shift + Q`: **Show** the black overlay (hides the screen)
-    * `Shift + W`: **Hide** the black overlay (restores the screen)
-* **Simple GUI**: An intuitive graphical interface for easy control without needing to memorize commands.
-* **Always on Top**: The black overlay is guaranteed to stay on top of all other windows, ensuring a reliable hiding effect.
-* **Extremely Lightweight**: The program is incredibly small and consumes almost no system resources.
-
-##  Use Cases
-
-* **Live Streaming & Screen Sharing**: Temporarily hide your secondary monitor while setting up scenes or switching windows to prevent viewers from seeing a cluttered desktop or private files.
-* **Working in Public Spaces**: Quickly hide non-work-related content on your extended display when working in a café, library, or co-working space.
-* **Presentations & Education**: Keep the projector screen (your second monitor) clean and black while you navigate files or consult notes on your primary display.
-
-##  Getting Started
-
-### Option 1: Direct Download (Recommended)
-
-If you just want to use the tool, the easiest way is to download it from the `Releases` page.
-
-1.  Go to the **[Releases Page](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/releases)** (please replace with your link).
-2.  Download the latest version of `hide_screen.exe`.
-3.  Double-click to run. No installation is required.
-
-### Option 2: Run from Source (For Developers)
-
-1.  Ensure you have Python 3 installed.
-2.  Clone the repository:
-    ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git)
-    cd YOUR_REPOSITORY
-    ```
-3.  Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-4.  Run the script:
-    ```bash
-    python hide_screen.py
-    ```
-
-##  Building the .exe from Source
-
-If you've modified the source code and want to create your own `.exe` file, you can use the included `build_hide_screen.bat` script.
-
-1.  **Install the build tool**:
-    ```bash
-    pip install pyinstaller
-    ```
-
-2.  **(Optional) Install UPX for Compression**:
-    To significantly reduce the size of the final `.exe` file, using UPX is recommended.
-    * Download the latest version from the **[UPX GitHub Releases page](https://github.com/upx/upx/releases)**.
-    * Extract the archive and place the entire folder (e.g., `upx-4.2.4-win64`) on your **Desktop**, as the build script defaults to this path.
-
-3.  **Run the Build Script**:
-    Simply double-click `build_hide_screen.bat`. The script will automatically detect UPX (if available) and package the application. The new `hide_screen.exe` will appear on your Desktop upon completion.
-
-##  License
-
-This project is licensed under the [MIT License](LICENSE).
