@@ -100,7 +100,7 @@ This project is licensed under the [MIT License](Screen%20Hide%20Utility/LICENSE
 * **教育與簡報**: 演講者可以在主螢幕操作的同時，保持副螢幕（投影幕）的畫面純淨，避免顯示電腦後台或備忘稿。
 
 ## 軟體截圖
-![Screenshot](Screen%20Hide%20Utility/images/screenshot.png)
+![Screenshot](images/screenshot.png)
 
 ##  如何開始
 
