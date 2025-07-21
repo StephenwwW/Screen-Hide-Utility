@@ -32,7 +32,7 @@ A lightweight screen overlay tool for Windows to instantly hide your second moni
 
 If you just want to use the tool, the easiest way is to download it from the `Releases` page.
 
-1.  Go to the **[Releases Page](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/releases)** (please replace with your link).
+1.  Go to the **[Releases Page](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/releases)** 
 2.  Download the latest version of `hide_screen.exe`.
 3.  Double-click to run. No installation is required.
 
@@ -108,7 +108,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 如果您只是想使用這個工具，最簡單的方式是從 `Releases` 頁面下載。
 
-1.  前往本專案的 **[Releases 頁面](https://github.com/StephenwwW/Screen-Hide-Utility)** (請替換成您的連結)。
+1.  前往本專案的 **[Releases 頁面](https://github.com/StephenwwW/Screen-Hide-Utility)** 
 2.  下載最新版本的 `hide_screen.pyw。
 3.  直接雙擊執行，無需安裝。
 
