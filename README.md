@@ -117,9 +117,10 @@ This project is licensed under the [MIT License](LICENSE).
 1.  確認您的電腦已安裝 Python 3。
 2.  複製本專案：
     ```bash
-    git clone (https://github.com/StephenwwW/Screen-Hide-Utility.git)
+    git clone ([https://github.com/StephenwwW/Screen-Hide-Utility.git](https://github.com/StephenwwW/Screen-Hide-Utility.git))
     cd YOUR_REPOSITORY
     ```
+    
 3.  安裝相依套件：
     ```bash
     pip install -r requirements.txt
