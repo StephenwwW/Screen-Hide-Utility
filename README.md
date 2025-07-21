@@ -41,8 +41,8 @@ If you just want to use the tool, the easiest way is to download it from the `Re
 1.  Ensure you have Python 3 installed.
 2.  Clone the repository:
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git)
-    cd YOUR_REPOSITORY
+    git clone https://github.com/StephenwwW/Screen-Hide-Utility.git
+    cd Screen-Hide-Utility
     ```
 3.  Install the required dependencies:
     ```bash
@@ -117,8 +117,8 @@ This project is licensed under the [MIT License](LICENSE).
 1.  確認您的電腦已安裝 Python 3。
 2.  複製本專案：
     ```bash
-    git clone ([https://github.com/StephenwwW/Screen-Hide-Utility.git](https://github.com/StephenwwW/Screen-Hide-Utility.git))
-    cd YOUR_REPOSITORY
+    git clone https://github.com/StephenwwW/Screen-Hide-Utility.git
+    cd Screen-Hide-Utility
     ```
     
 3.  安裝相依套件：
