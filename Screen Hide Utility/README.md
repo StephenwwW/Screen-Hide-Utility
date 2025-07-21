@@ -24,7 +24,7 @@ A lightweight screen overlay tool for Windows to instantly hide your second moni
 * **Presentations & Education**: Keep the projector screen (your second monitor) clean and black while you navigate files or consult notes on your primary display.
 
 ### User Interface
-![Screenshot](Screen%20Hide%20Utility/images/screenshot.png)
+![Screenshot](images/screenshot.png)
 
 ##  Getting Started
 
