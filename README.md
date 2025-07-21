@@ -72,7 +72,7 @@ If you've modified the source code and want to create your own `.exe` file, you 
 
 ##  License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](Screen%20Hide%20Utility/LICENSE).
 
 
 
@@ -147,9 +147,9 @@ This project is licensed under the [MIT License](LICENSE).
 3.  **執行打包**:
     直接雙擊執行 `build_hide_screen.bat`，腳本將會自動尋找 UPX 並進行打包。完成後，新的 `hide_screen.exe` 檔案將會出現在您的桌面上。
 
-##  版權許可
+## 版權許可
 
-本專案採用 [MIT License](LICENSE) 授權。
+本專案採用 [MIT License](Screen%20Hide%20Utility/LICENSE) 授權。
 
 
 
