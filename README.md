@@ -32,7 +32,7 @@ A lightweight screen overlay tool for Windows to instantly hide your second moni
 
 If you just want to use the tool, the easiest way is to download it from the `Releases` page.
 
-1.  Go to the **[Releases Page](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/releases)** 
+1.  Go to the **[Releases Page]((https://github.com/StephenwwW/Screen-Hide-Utility/releases))** 
 2.  Download the latest version of `hide_screen.exe`.
 3.  Double-click to run. No installation is required.
 
