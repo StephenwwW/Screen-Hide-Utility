@@ -1,14 +1,14 @@
 @echo off
 setlocal enabledelayedexpansion
 
-set SCRIPT=C:\Users\H\Desktop\hide_screen.py.py
+set SCRIPT=%~dp0hide_screen.py
 set UPX=C:\Users\H\Desktop\upx-5.0.1-win64
-set OUTPUT_NAME=hide_screen.py.exe
-set OUTPUT_DIR=%USERPROFILE%\Desktop
+set OUTPUT_NAME=hide_screen.exe
+set OUTPUT_DIR=%USERPROFILE%\Desktop\Screen Hide Utility
 set WORKDIR=%~dp0
 
 echo ----------------------------------------
-echo PyInstaller Build Script for hide_screen.py.py
+echo PyInstaller Build Script for hide_screen.py
 echo.
 echo Choose the build method:
 echo 1 - pyinstaller --onefile --noconsole --upx-dir
