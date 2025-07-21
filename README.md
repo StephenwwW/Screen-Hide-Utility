@@ -3,7 +3,7 @@
 使用於 Windows系統的螢幕遮蔽工具，能以全黑畫面快速覆蓋第二個螢幕。無論是工作、簡報或直播，它都能完美保護您的畫面隱私，並減少不必要的干擾。
 
 ## 軟體截圖
-!! (Screen-Hide-Utilit\images\screenshot.png)
+! (Screen-Hide-Utilit\images\screenshot.png)
 
 ---
 
@@ -38,7 +38,7 @@
 1.  確認您的電腦已安裝 Python 3。
 2.  複製本專案：
     ```bash
-    git clone [https://github.com/StephenwwW/Screen-Hide-Utility.git](https://github.com/StephenwwW/Screen-Hide-Utility.git)
+    git clone (https://github.com/StephenwwW/Screen-Hide-Utility.git)
     cd YOUR_REPOSITORY
     ```
 3.  安裝相依套件：
